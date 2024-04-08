@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:linear-gradient(45deg,rgb(165, 59, 235),rgb(102, 75, 239),rgb(45, 171, 38)) ;
+}
+.blurcard{  
+    /* background: transparent; */
+    /* backdrop-filter: blur(1px); */
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 2vh 10vh ;
+    border-radius: 4%;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.242);
+    background: rgba(255, 240, 240, 0.151);
+    border: 1px solid rgba(255,255,255,0.34); 
+}
+.profile{
+    height: 180px;
+    width: 280px;
+    align-items: center;
+}
+.contain{
+    height: 100px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 134.7px;
+    background-color: transparent;
+    color: rgb(239, 238, 238);
+    font-weight:bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+    border-radius: 6px;
+    border-color: rgba(255, 255, 255, 0.332);
+    position: relative;
+    transition: 0.3s;
+}
+.fol:hover{
+    color: rgba(0, 0, 0, 0.623);
+    box-shadow: 0px 5px 10px rgba(35, 35, 35, 0.386) ;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.341);
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.09),rgba(255, 255, 255, 0.3));
+    height: 12rem;
+    width: 12rem;
+    position: absolute; 
+    border-radius: 50%;
+}
+.circle1{
+    top: -5%;
+    right: -3%;
+    
+}
+.circle2{
+    bottom: -5%;
+    left: -3%;
+}
+/* @keyframes move{
+
+    0%{
+        transform:  rotateY(0deg);
+    }
+    50%{
+        transform:  rotateX(180deg);
+    }
+    100%{
+        transform:  rotateX(360deg);
+    }
+} */
